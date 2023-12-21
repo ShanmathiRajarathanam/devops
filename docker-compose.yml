@@ -5,6 +5,7 @@ services:
     build:
       context: .
       dockerfile: dockerfile
+    container_name: shanmathi  
     ports:
       - "3000:3000"
    
